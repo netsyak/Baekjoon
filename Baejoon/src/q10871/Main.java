@@ -10,8 +10,7 @@ public class Main {
 		int[] a = new int[n];
 
 		for (int i = 0; i < n; i++) {
-			int inp = sc.nextInt();
-			a[i] = inp;
+			a[i] = sc.nextInt();
 			if (a[i] < x) {
 				System.out.print(a[i] + " ");
 			}
